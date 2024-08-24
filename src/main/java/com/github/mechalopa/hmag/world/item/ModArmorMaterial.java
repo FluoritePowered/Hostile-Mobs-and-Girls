@@ -95,7 +95,6 @@ public enum ModArmorMaterial implements StringRepresentable, ArmorMaterial
 		return this.repairIngredient.get();
 	}
 
-	@OnlyIn(Dist.CLIENT)
 	@Override
 	public String getName()
 	{
